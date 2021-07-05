@@ -1,0 +1,15 @@
+2,3,4
+7,1990,---
+
+
+FORMAT (line-by-line):
+1. null_value indexes [seperate by space/comma]
+2. outlier (format: index,uper-range,lower-range) [seperate by space only]
+
+NOTES:
+1. no. of null_value indexes should not be greater than no. of colomns/types 
+2. no. of outlier indexes should not be greater than no. of total 'int' types & their respective types should be set to 'int'
+    (outlier settings are only for integer & float types)
+3. if you don't want to prioritize null-values, then enter atleast 1 index with any -ve number (i.e. -1) in its' respective line
+4. if you want to skip any one of outlier range, just type '---' in its' respective space
+5. if you don't want to prioritize outliers, then enter atleast 1 outlier with any -ve number (i.e. -1) in index & leave the rest filled

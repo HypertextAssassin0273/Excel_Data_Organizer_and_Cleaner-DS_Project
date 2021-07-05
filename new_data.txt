@@ -1,0 +1,14 @@
+s97,Movie,3 Days to Kill,McG,"Kevin Costner, Amber Heard, Hailee Steinfeld, Connie Nielsen, Tmas Lemarquis, Richard Sammel, Marc Androni, Bruno Ricci, Jonas Bloquet, Eriq Ebouaney","United States, France, Serbia","December 1, 2020",2014,PG-13,117 min,Action & Adventure,A terminally ill secret agent accepts a risky mission in exchange for an experimental drug that might save him  if he can survive its side effects.,N.I.L
+
+
+//new_data,string,string,string-list,string-list,string-list,string-list,string-list,int,string,string,string-list,string-list
+
+Notes:
+1. seperate each string/cell-entry with comma (,).
+2. first string/cell-entry will be the colomn name.
+3. if a cell contains multiple commas (,) then, use quotes ("") & type string in b/w those quotes. (i.e. "Hi, how r u?")
+4. if a cell contains quotes ("") then do as follows:
+	A) use quotes ("") & type string in b/w those quotes.
+	B) wherever the multiple quotes are used in the string, use double quotes at the beginning & ending of that quoted text.
+	   (i.e. """Asim"" is a ""Legendary Player"" of our national team.")
+	

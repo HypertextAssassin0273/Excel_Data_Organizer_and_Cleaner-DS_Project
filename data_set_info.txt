@@ -1,0 +1,17 @@
+netflix_titles
+string,string,string-list,string-list,string-list,string-list,string-list,int,string,string,string-list,string-list
+
+
+FORMAT (line-by-line):
+1. file name
+2. type name of each colomn (without spaces)
+
+Defined Types:
+1. int: supports all types of integer values (i.e. short, int, unsinged long long, etc)
+2. float: supports all types of float values (i.e. float, double, long double, etc)
+3. string: can be used for any type of data
+4. string-list (default): use it for list of strings or for single string with commas included
+
+NOTES: 
+1. if you don't know the type-name, then use any name as default (except int, float & string).
+2. Don't to use too many default type names as they'll provide less optimized results.
