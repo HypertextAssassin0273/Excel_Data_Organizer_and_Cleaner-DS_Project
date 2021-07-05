@@ -1,0 +1,46 @@
+/* Navbar links */
+.btn a {
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.btn a:hover {
+  color: rgba(127, 255, 212, 0.8); //Aquamarine
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+/* Hide the horizontal lines*/
+.btn p2 {
+  display: none;
+  }
+
+/* Navbar gets faded on mouse-over */
+.nav a:hover {
+  opacity: 0.7;
+}
+
+/* Navbar links gets faded on mouse-over */
+.follow_links a:hover {
+  opacity: 0.7;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically with all its elements (instead of horizontally) on screens less than 1470 pixels */
+@media screen and (max-width: 1470px) {
+  .btn a {
+    float: none;
+    display: block;
+  }
+  
+  .btn p1 {
+  display: none;
+  }
+  .btn p2 {
+  display: block;
+  }
+}
