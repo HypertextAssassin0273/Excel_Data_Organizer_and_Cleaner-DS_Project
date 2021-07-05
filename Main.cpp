@@ -456,7 +456,7 @@ class AMO:protected manager{
 	}
 public:
 	static void advance_management_operations(){
-		AMO object;//i.e. not efficient method for searching by multiple atrributes
+		AMO object;//i.e. not completed as algorithm for searching by multiple atrributes is still need to be determined
 		//object.colomn_wise_table[2].in_order_traversal();
 	}
 };
