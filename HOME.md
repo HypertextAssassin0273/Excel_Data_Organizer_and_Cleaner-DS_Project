@@ -4,7 +4,11 @@ permalink: /
 
 <details>
   <summary style="color:#159957;font-size:2em;">Introduction</summary>
-  <p>This project is based on the idea of an offline store management application which will handle shopping items in terms of categories. Our project has two main modules (i.e. Retailer & Customer), in which we have provided unique functionalities. We’ve also prioritized the application in terms of a GUI environment (by providing 2 diff. menu outlooks) so that it ensures a good interaction between the retailer/customer and the application with complete checkout process.<br><br>Hence, catering all the requirements of both Retailer & customer with an ensured smooth experience.</p>
+  <ul>
+    <li>Situations in which we handle large amounts of information, data cleansing is a must as it properly organizes the data, making algorithms easier to implement and run. So, if we have a well-cleaned dataset, we can get desired results even with a very simple algorithm, which can prove very beneficial at times.</li>
+    <li>Data cleaning is the process consisting of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset.</li>
+  The Data will be collected from any website e.g., Kaggle, which contain data-sets in .csv format, and after cleansing, it will be stored in separate .csv file.</li>
+  </ul>
 </details>
 
 ---
@@ -13,15 +17,11 @@ permalink: /
   <summary style="color:#159957;font-size:2em;">Salient Features</summary>
   <br>
   <ul>
-    <li>We have provided maximum abstraction so that the customer's data cannot be stolen/updated from app nor from its Files.</li>
-    <li>We also ensured that all sensitive data is encrypted so that no info could be stole from files.</li>
-    <li>The Code is in generalized format utilizing all C++ templates techniques, & variadic template function & Parameter pack (i.e. C++11 features).</li>
-    <li>Our Project is capable of generating new Categories (i.e. Classes)
-    At run-time, with up to 30 attributes.</li>
-    <li>Our Application is portable, as it doesn’t require manual recompilation for generating new classes.
-</li>
-    <li>All Input data errors are validated using the generic function & its overloaded versions.</li>
-    <li>Our application is also memory efficient (i.e. vector class approach used for Items Pointer Array).</li>
+    <li>The Data will be collected from any website e.g., Kaggle, which contain data-sets in .csv format, and after cleansing, it will be stored in separate .csv file.</li>
+    <li>Provides ideal solution that is able to cleanse any type of data.</li>
+    <li>Two level based Cleaning (i.e. first simply parses the file in clean format & 2nd level deals with null values & outliers)</li>
+    <li>Data is handled efficiently by saving in appropriate structure</li>
+    <li>Move Semantics are used with dynamic Array structures in order to avoid using heavy node structures like doubly-linked list</li>
   </ul>
 </details>
  
@@ -31,17 +31,27 @@ permalink: /
   <summary style="color:#159957;font-size:2em;">Learned/Covered Topics</summary>
   <br>
   <ul>
-    <li>Filing (i.e. read/write abstract class objects)</li>
-    <li>Inheritance (i.e. multi-level)</li>
-    <li>Friend Classes</li>
-    <li>Abstraction (i.e. all data is in private & protected mode)</li>
-    <li>Polymorphism (func. overloading , func. Overriding, operator overloading)</li>
-    <li>Encapsulation (i.e. all data is private/protected)</li>
-    <li>Templates/ Variadic Templates (i.e. for generic funcs.)</li>
-    <li>Pointer Arrays (i.e. 2D dynamic object pointer array)</li>
+    <li>Sorting Algorithms (Bubble, Insertion, Selection)</li>
+    <li>Dynamic Safe Arrays (as Vector & Strings)</li>
+    <li>Copy Semantics (Rule of Three)</li>
+    <li>Move Semantics (Rule of Five)</li>
+    <li>Trees (BST,AVL)</li>
+    <li>Stacks (implemented as singly-linked list in LIFO order & in Vectors as FILO order)</li>
   </ul>
 </details>
- 
+
+---
+
+<details>
+  <summary style="color:#159957;font-size:2em;">Tools & Technologies Used</summary>
+  <br>
+  <ul>
+    <li>DevC++ compiler /Visual studio 2019</li>
+    <li>C++11 programming language</li>
+    <li> Operating System Microsoft Windows 10</li>
+  </ul>
+</details>
+
 ---
 <details>
   <summary style="color:#159957;font-size:2em;">Class-Relation Diagram</summary>
