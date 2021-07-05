@@ -1,0 +1,18 @@
+<a id="skip-to-content" href="#content">Skip to the content.</a>
+    
+<!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<header class="page-header" role="banner">
+  {% include header/index.html %}
+  {% include header/navbar.html %}
+</header>
+
+<main id="content" class="main-content" role="main">
+  {{ content }}
+
+  <footer class="site-footer"> 
+    {% include footer/links.html %}
+    {% include footer/index.html %}
+  </footer>
+</main>
