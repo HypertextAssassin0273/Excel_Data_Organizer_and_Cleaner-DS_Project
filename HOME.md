@@ -6,7 +6,7 @@ permalink: /
   <summary style="color:#159957;font-size:2em;">Introduction</summary>
   <ul>
     <li>Situations in which we handle large amounts of information, data cleansing is a must as it properly organizes the data, making algorithms easier to implement and run. So, if we have a well-cleaned dataset, we can get desired results even with a very simple algorithm, which can prove very beneficial at times.</li>
-    <li>Data cleaning is the process consisting of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset.</li>
+    <li>Data cleaning is the process consisting of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset.
   The Data will be collected from any website e.g., Kaggle, which contain data-sets in .csv format, and after cleansing, it will be stored in separate .csv file.</li>
   </ul>
 </details>
