@@ -1,0 +1,13 @@
+<p class="btn">  
+  <a href="{{site.baseurl}}/"><i class="fa fa-fw fa-home"></i>Home</a>
+  <a href="{{site.baseurl}}/PROJECT_DIVISION/"><i class="fa fa-folder-open"></i> Project Division</a>
+  <a href="{{site.baseurl}}/PROJECT_SCREENSHOTS/"><i class="fa fa-picture-o"></i> Project Screenshots</a>
+  <p1>|</p1> <p2>---</p2>
+  {% if site.github.is_project_page %}
+    <a href="{{ site.github.repository_url }}"><i class="fa fa-github"></i> View Repository</a>
+  {% endif %}
+  {% if site.show_downloads %}
+    <p1>|</p1> <p2>---</p2>
+    <a href="https://github.com/HypertextAssassin0273/SwiFT_Store_Management-OOP_Project/archive/v1.0.zip"><i class="fa fa-download"></i> Project Files</a>   <!-- <a href="{{ site.github.zip_url }}" class="btn"><b>Download .zip<b></a> --->
+  {% endif %}
+</p>
