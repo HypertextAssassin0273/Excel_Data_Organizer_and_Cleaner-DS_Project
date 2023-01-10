@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
-title: "Multi Attribute AVL Tree Adapter (M.A.A.T.A)"
-description: "Data Structures project in C++11 language,"
+title: "Excel Data Organizer & Cleaner (DS_Project)"
+description: "Data Structures project in C++11 language, which uses custom Vector, String & AVL-tree structures with Move Semantics"
 show_downloads: true
