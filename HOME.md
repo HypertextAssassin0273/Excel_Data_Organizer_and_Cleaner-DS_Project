@@ -1,5 +1,5 @@
 ---
-permalink: /MAATA/
+permalink: /
 ---
 
 <details>
